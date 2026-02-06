@@ -1,40 +1,81 @@
 /* Place CSS styles here */
 body {
-  background-color: #ffffff; /* light blue */
-}
-
-body {
+  background-color: #ffffff; 
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
+h1 {
+    font-family: "deseo-medium", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 5px
+}
+
+h3 {
+    font-family: "korolev-rounded", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0;
+    color: #759db8;
+}
+
 
 .menu-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #413226; /* light blue */
-  padding: 1px 300px;
+  background-color: #413226;
+  padding: 20px 300px;
 }
 
 .menu-bar a {
   text-decoration: none;
   color: #ffffff;
-  font-weight: bold;
+  font-family: "korolev-rounded", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu-bar a:hover {
+  color: #f9cdeb;
 }
 
 .menu-bar .logo img {
-  height: 350px; /* adjust the size of your logo */
+  height: 100px;
   width: auto;
 }
 
 .image-container {
-  margin-top: 60px;   /* space below the menu bar */
-  margin-left: 60px;  /* space from left side */
+  margin-top: 60px;
+  margin-left: 80px;
 }
 
 .image-container img {
-  width: 500px;      /* adjust size */
+  width: 350px;
   height: auto;
-  border-radius: 5px; /* optional */
 }
+
+.description {
+  background-color: #413226;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: "korolev-rounded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #f9cdeb;
+}
+
+.description-text {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+
+
+
 
