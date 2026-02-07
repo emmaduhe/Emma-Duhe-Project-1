@@ -36,6 +36,8 @@ h3 {
     margin-bottom: 50px;
 }
 
+/* Menu Bar */
+
 .menu-bar {
   display: flex;
   align-items: center;
@@ -61,7 +63,8 @@ h3 {
   width: auto;
 }
 
-/* Espresso Martini Picture */
+/* Espresso Martini Picture and Text*/
+
 .image-container {
   display: flex;
   align-items: flex-start;   
@@ -101,6 +104,8 @@ h3 {
   margin-top: 0px;
 }
 
+/* Ingredients*/
+
 .ingredients-elements {
   background-color: #bddbf0; 
   width: 37%;
@@ -119,6 +124,8 @@ h3 {
     line-height: 2;
     margin-left: 20px;
 }
+
+/* Instructions*/
 
 .instructions-elements {
   width: 1300px;
@@ -143,15 +150,17 @@ h3 {
   font-size: 20px;
 }
 
+/* Footer*/
+
 .site-footer {
-  background-color: #413226;      /* brown color */
-  color: #bddbf0;                 /* light blue text for contrast */
+  background-color: #413226;      
+  color: #bddbf0;      
   font-family: "korolev-rounded", sans-serif;
   font-style: italic;
   font-weight: 500;
   font-size: 18px;
-  text-align: center;             /* center the text */
-  padding: 50px 0;                /* vertical spacing inside the bar */
-  position: relative;             /* keeps it at the bottom naturally */
-  margin-top: 50px;               /* space above the footer if needed */
+  text-align: center; 
+  padding: 50px 0; 
+  position: relative; 
+  margin-top: 50px;
 }
