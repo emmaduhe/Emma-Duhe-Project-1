@@ -20,7 +20,9 @@ h2 {
     font-weight: 700;
     font-style: normal;
     font-size: 35px;
-    margin-left: 80px;
+    text-align: left;
+    color: #759db8;
+    margin-top: 0;
 }
 
 h3 {
@@ -29,10 +31,9 @@ h3 {
     font-style: italic;
     text-align: center;
     font-size: 15px;
-    margin-top: 0;
     color: #759db8;
+    margin-bottom: 60px;
 }
-
 
 .menu-bar {
   display: flex;
@@ -59,33 +60,85 @@ h3 {
   width: auto;
 }
 
-.image-container img {
+/* Espresso Martini Picture */
+.image-container img { 
   width: 350px;
   height: auto;
-  margin-right: 110px;
-}
-
-.description {
-  background-color: #413226;
-  padding: 80px;
-  border-radius: 15px;
-  font-family: "korolev-rounded", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-  color: #f9cdeb;
-  line-height: 2.5;
-  width: 600px;
-  height: 180px;
+  margin-right: 30px;
 }
 
 .image-container {
   display: flex;
-  align-items: center;
   gap: 25px;
   margin-right: 80px;
-  margin-left: 80px;
+  margin-left: 110px;
 }
+
+.recipe-description {
+  background-color: #413226;
+  padding: 20px 30px; /* smaller padding, top/bottom 20px, left/right 30px */
+  font-family: "korolev-rounded", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #bddbf0;
+  line-height: 2.5;
+  width: 1300px;
+  height: auto; 
+}
+
+
+.recipe-layout {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+  margin-top: 0px;
+}
+
+.ingredients-elements {
+  background-color: #bddbf0;   /* cute soft blue background */
+  width: 32%;
+  margin-left: 110px;
+  padding: 30px;               /* space inside the box */
+  align-items: center;
+  height: 400px;
+}
+
+
+.ingredients {
+    font-family: "korolev-rounded", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #413226;
+    line-height: 2.5;
+    margin-left: 20px;
+}
+
+.instructions-elements {
+  width: 1300px;
+  margin-right: 110px;
+  align-items: center;
+}
+
+.instructions {
+    font-family: "korolev-rounded", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #413226;
+    line-height: 2.5;
+    margin-left: auto;
+}
+
+.instructions li::marker {
+  font-weight: bold;      /* makes the numbers bold */
+  color: #413226;         /* optional: match your text color */
+  font-size: 20px;        /* optional: same size as your text */
+}
+
+
+
+
 
 
 
