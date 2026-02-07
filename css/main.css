@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 body {
-  background-color: #ffffff; 
+  background-color: #faf2eb; 
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -10,8 +10,17 @@ h1 {
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    font-size: 80px;
+    color: #413226;
+    font-size: 60px;
     margin-bottom: 5px
+}
+
+h2 {
+    font-family: "korolev-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    margin-left: 80px;
 }
 
 h3 {
@@ -50,30 +59,36 @@ h3 {
   width: auto;
 }
 
-.image-container {
-  margin-top: 60px;
-  margin-left: 80px;
-}
-
 .image-container img {
   width: 350px;
   height: auto;
+  margin-right: 110px;
 }
 
 .description {
   background-color: #413226;
-  padding: 20px;
+  padding: 80px;
   border-radius: 15px;
   font-family: "korolev-rounded", sans-serif;
   font-weight: 500;
   font-style: normal;
+  font-size: 20px;
   color: #f9cdeb;
+  line-height: 2.5;
+  width: 600px;
+  height: 180px;
 }
 
-.description-text {
-  margin-left: auto;
-  margin-right: 30px;
+.image-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-right: 80px;
+  margin-left: 80px;
 }
+
+
+
 
 
 
