@@ -12,6 +12,7 @@ h1 {
     text-align: center;
     color: #413226;
     font-size: 60px;
+    margin-top: 50px;
     margin-bottom: 5px
 }
 
@@ -32,7 +33,7 @@ h3 {
     text-align: center;
     font-size: 15px;
     color: #759db8;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .menu-bar {
@@ -61,31 +62,37 @@ h3 {
 }
 
 /* Espresso Martini Picture */
-.image-container img { 
-  width: 350px;
-  height: auto;
-  margin-right: 30px;
-}
-
 .image-container {
   display: flex;
-  gap: 25px;
-  margin-right: 80px;
-  margin-left: 110px;
-}
-
-.recipe-description {
+  align-items: flex-start;   
+  gap: 50px;                 
+  margin: 20px 80px 0 110px;
   background-color: #413226;
-  padding: 20px 30px; /* smaller padding, top/bottom 20px, left/right 30px */
+  padding: 30px 40px; 
   font-family: "korolev-rounded", sans-serif;
   font-weight: 500;
   font-size: 20px;
   color: #bddbf0;
-  line-height: 2.5;
-  width: 1300px;
-  height: auto; 
+  width: auto; 
+  height: auto;
 }
 
+.recipe-description {
+  background-color: #413226;
+  color: #bddbf0;
+  font-family: "korolev-rounded", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2.5;
+  
+  padding: 30px 40px;    
+  width: 600px;  
+  height: auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
 
 .recipe-layout {
   display: flex;
@@ -95,14 +102,13 @@ h3 {
 }
 
 .ingredients-elements {
-  background-color: #bddbf0;   /* cute soft blue background */
-  width: 32%;
+  background-color: #bddbf0; 
+  width: 37%;
   margin-left: 110px;
-  padding: 30px;               /* space inside the box */
+  padding: 30px;  
   align-items: center;
-  height: 400px;
+  height: 350px;
 }
-
 
 .ingredients {
     font-family: "korolev-rounded", sans-serif;
@@ -110,7 +116,7 @@ h3 {
     font-style: normal;
     font-size: 20px;
     color: #413226;
-    line-height: 2.5;
+    line-height: 2;
     margin-left: 20px;
 }
 
@@ -118,6 +124,7 @@ h3 {
   width: 1300px;
   margin-right: 110px;
   align-items: center;
+  margin-top: 30px;
 }
 
 .instructions {
@@ -131,19 +138,20 @@ h3 {
 }
 
 .instructions li::marker {
-  font-weight: bold;      /* makes the numbers bold */
-  color: #413226;         /* optional: match your text color */
-  font-size: 20px;        /* optional: same size as your text */
+  font-weight: bold;
+  color: #413226;
+  font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.site-footer {
+  background-color: #413226;      /* brown color */
+  color: #bddbf0;                 /* light blue text for contrast */
+  font-family: "korolev-rounded", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;             /* center the text */
+  padding: 50px 0;                /* vertical spacing inside the bar */
+  position: relative;             /* keeps it at the bottom naturally */
+  margin-top: 50px;               /* space above the footer if needed */
+}
